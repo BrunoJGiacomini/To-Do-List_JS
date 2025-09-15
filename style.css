@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-left: 100px;
+    
+}
+
+.blocks {
+  display: flex;
+  gap: 20px; /* espaço entre os blocos */
+  justify-content: space-between; /* ou 'center', ou 'flex-start' */
+  padding: 20px;
+}
+
+.block {
+  flex: 1; /* os blocos vão ocupar o mesmo espaço */
+  background-color: #ebecf0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  
+}
